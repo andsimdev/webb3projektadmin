@@ -1,0 +1,174 @@
+/* Importera typsnitt */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #2A2A2A;
+    transition: 0.15s ease-in-out;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9704D;
+    border-radius: 15px;
+    padding: 0 15px;
+    border-style: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 40px;
+}
+
+#startlink {
+    margin-right: 30px;
+    background-color: #41F9BF;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+main section {
+    width: 30%;
+}
+
+.topdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topdiv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41F9BF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #2A2A2A;
+}
+
+main section article {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+    padding: 5% 7%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+main section article img {
+    width: 150px;
+}
+
+.change {
+    color: #F9704D;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.updateform {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.updateform input {
+    padding: 1% 3%;
+    margin: 2%;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.updateform textarea {
+    padding: 1% 3%;
+    margin: 2%;
+    height: 150px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#siteimage {
+    height: auto;
+}
+
+#siteimage:hover {
+    cursor: pointer;
+}
+
+.formbtns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.formbtns input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border-style: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: black;
+    font-weight: 600;
+}
+
+.formbtns input:hover {
+    cursor: pointer;
+}
+
+.updatebtn {
+    background-color: #41F9BF !important;
+}
+
+.createbtn {
+    background-color: #41F9BF !important;
+}
+
+.deletebtn {
+    background-color: rgb(255, 55, 55) !important;
+}
