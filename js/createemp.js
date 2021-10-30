@@ -1,6 +1,6 @@
 "use strict";
 // URL TILL WEBBTJÄNST
-const url = "http://localhost/webbutveckling3/projekt/api/employmentsapi.php";
+const url = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/employmentsapi.php";
 
 // HTML & VARIABLER
 const formEl = document.getElementById("updateform");

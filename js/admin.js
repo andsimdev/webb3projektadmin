@@ -1,8 +1,8 @@
 "use strict";
 // URL TILL WEBBTJÄNSTER
-const urlstud = "http://localhost/webbutveckling3/projekt/api/studiesapi.php";
-const urlemp = "http://localhost/webbutveckling3/projekt/api/employmentsapi.php";
-const urlweb = "http://localhost/webbutveckling3/projekt/api/websitesapi.php";
+const urlstud = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/studiesapi.php";
+const urlemp = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/employmentsapi.php";
+const urlweb = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/websitesapi.php";
 
 // HTML-ELEMENT
 const studiessectionEl = document.getElementById("studiessection");
