@@ -63,7 +63,7 @@ function printData() {
                 `
                 <article>
                 <p><b>${websites.sitetitle}</b></p>
-                <p>${websites.siteurl}</p>
+                <p class="smallurl">${websites.siteurl}</p>
                 <p>${websites.sitedesc}</p>
                 <img src="${rooturl}${websites.siteimage}">
                 <a href="updateweb.php?id=${websites.siteID}" class="change">Ändra</a>
