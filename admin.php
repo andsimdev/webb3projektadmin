@@ -17,6 +17,7 @@ if(!isset($_SESSION['username'])) {
     <title>Administration - Simons portfolio</title>
 </head>
 <body>
+    <!--Sidhuvud-->
     <header>
     <h1>Simons portfolio</h1>
     <nav>
@@ -25,6 +26,7 @@ if(!isset($_SESSION['username'])) {
     </nav>
     </header>
 
+    <!--Huvudinnehåll-->
     <main>
         <section id="studiessection">
             <div class="topdiv">
@@ -49,6 +51,7 @@ if(!isset($_SESSION['username'])) {
         </section>
     </main>
     
+    <!--JavaScript-->
     <script src="js/admin.js"></script>
 </body>
 </html>

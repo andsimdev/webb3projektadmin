@@ -19,6 +19,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+    <!--Sidhuvud-->
     <header>
         <h1>Simons portfolio</h1>
         <nav>
@@ -28,7 +29,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <h2>Skapa ny webbsidepost</h2>
-
+    <!--Formulär för att skapa ny post-->
     <form class="updateform" id="updateform" enctype="multipart/form-data">
         <input type="hidden" name="id" id="id">
         <label for="sitetitle">Webbsitetitel</label>
@@ -53,7 +54,7 @@ if (!isset($_SESSION['username'])) {
         <br>
         <p id="msg"></p>
     </form>
-
+    <!--JavaScript-->
     <script src="js/createweb.js"></script>
 </body>
 

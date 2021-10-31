@@ -37,6 +37,7 @@ if(isset($_POST['username'])) {
 
 <h1 class="loginh1">Hej! 👋</h1>
 
+<!--Inloggningssektion-->
 <section class="loginsection">
 <h2 class="loginh2">Administrationsinloggning</h2>
 <form method="POST" action="index.php" class="loginform">

@@ -19,6 +19,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+    <!--Sidhuvud-->
     <header>
         <h1>Simons portfolio</h1>
         <nav>
@@ -28,7 +29,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <h2>Skapa ny arbete-post</h2>
-
+    <!--Formulär för att skapa ny post-->
     <form class="updateform" id="updateform">
         <input type="hidden" name="id" id="id">
         <label for="emptitle">Arbetstitel</label>
@@ -53,6 +54,7 @@ if (!isset($_SESSION['username'])) {
         <p id="msg"></p>
     </form>
 
+    <!--JavaScript-->
     <script src="js/createemp.js"></script>
 </body>
 
