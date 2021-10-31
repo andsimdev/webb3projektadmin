@@ -12,7 +12,7 @@ if(isset($_POST['username'])) {
     $password = $_POST['password'];
 
     // Kontrollera om medskickat användarnamn och lösenord stämmer
-    if($username == "admin" && $password == "password") {
+    if($username == username && $password == password) {
         // Sätt sessionsvariabeln
         $_SESSION['username'] = $username;
         // Skicka vidare till admin-sidan
