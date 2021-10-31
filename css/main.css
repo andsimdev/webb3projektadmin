@@ -95,6 +95,7 @@ main section article {
 
 .smallurl {
     font-size: .75rem;
+    word-break: break-all;
 }
 
 main section article img {
