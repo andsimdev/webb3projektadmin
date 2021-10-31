@@ -1,5 +1,6 @@
 "use strict";
 // URL TILL WEBBTJÄNSTER
+const rooturl = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/";
 const urlstud = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/studiesapi.php";
 const urlemp = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/employmentsapi.php";
 const urlweb = "https://studenter.miun.se/~sian2001/writeable/dt173g/projekt/api/websitesapi.php";
@@ -64,7 +65,7 @@ function printData() {
                 <p><b>${websites.sitetitle}</b></p>
                 <p>${websites.siteurl}</p>
                 <p>${websites.sitedesc}</p>
-                <img src="http://localhost/webbutveckling3/projekt/api/${websites.siteimage}">
+                <img src="${rooturl}${websites.siteimage}">
                 <a href="updateweb.php?id=${websites.siteID}" class="change">Ändra</a>
                 </article>
                 `;
